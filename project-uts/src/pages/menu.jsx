@@ -1,15 +1,45 @@
-// src/pages/Menu.js
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import sigma from "../assets/images/Logoutspweb-06.png";
 
-function Menu() {
+import "../styles/Home.css";
+import { Link } from "react-router-dom";
+function Home() {
   return (
-    <div>
-      <h1>Our Menu</h1>
-      <p>Here is the list of products available in our store.</p>
-      {/* Tambahkan konten yang sesuai dengan daftar menu */}
-    </div>
+    <>
+      {/* navbar */}
+      <nav>
+        <div className="wrapper">
+          <div className="logo">
+            <a href="#">
+              <img src={sigma} alt="logo" className="logoPng" />
+            </a>
+            <h2 className="sigmaStore">SIGMA STORE</h2>
+          </div>
+          <div className="menu">
+            <ul>
+              <li>
+                <Link to="/home">Home</Link>
+              </li>
+              <li>
+                <Link to="/menu">Menu</Link>
+              </li>
+              <li>
+                <Link to="/about">About us</Link>
+              </li>
+              <li>
+                <Link to="/Contact">Contact</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <h2>Ini menu</h2>
+      </div>
+    </>
   );
 }
 
-export default Menu;
+export default Home;
