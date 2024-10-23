@@ -3,6 +3,21 @@
   width: 100%;
 }
 
+.piscok {
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  margin-right: 140px;
+  margin-left: 100px;
+}
+
+.sosis {
+  height: 400px;
+  width: 400px;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
 a.tbl-biru {
   background: #3f72af;
   border-radius: 20px;
@@ -51,12 +66,12 @@ p {
 .kolom .deskripsi {
   font-size: 20px;
   font-weight: bold;
-  font-family: "comic sans ms";
+  font-family: sans-serif;
   color: #364f6b;
 }
 
 h2 {
-  font-family: "comic sans ms";
+  font-family: sans-serif;
   font-weight: 800;
   font-size: 45px;
   margin-bottom: 20px;
