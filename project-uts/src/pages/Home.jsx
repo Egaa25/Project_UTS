@@ -3,6 +3,7 @@ import sosis from "../assets/images/sosis.png";
 import sigma from "../assets/images/Logoutspweb-06.png";
 
 import "../styles/Home.css";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -10,23 +11,23 @@ function Home() {
       <nav>
         <div className="wrapper">
           <div className="logo">
-            <a href="">
+            <a href="#">
               <img src={sigma} alt="logo" className="logoPng" />
             </a>
           </div>
           <div className="menu">
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <a href="#">Home</a>
               </li>
               <li>
-                <a href="#menu">Menu</a>
+                <Link to="/menu">Menu</Link>
               </li>
               <li>
-                <a href="#about">About us</a>
+                <Link to="/about">About us</Link>
               </li>
               <li>
-                <a href="#Contact">Contact</a>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -43,9 +44,9 @@ function Home() {
               <h2>Find the product that you want</h2>
               <p>Order the products you want easily here</p>
               <p>
-                <a href="" className="tbl-pink">
+                <Link to="/menu" className="tbl-pink">
                   Order now
-                </a>
+                </Link>
               </p>
             </div>
           </section>
