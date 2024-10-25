@@ -41,7 +41,9 @@ function Home() {
           <section id="home">
             <img src={logo} alt="logo" className="piscok" />
             <div className="kolom">
-              <p className="deskripsi">Hi, Welcome to Sigma Store!</p>
+              <p>
+                <b>Hi, Welcome to Sigma Store!</b>
+              </p>
               <h2>Find the product that you want</h2>
               <p>Order the products you want easily here</p>
               <p>
@@ -107,7 +109,10 @@ function Home() {
               <div className="card-content">
                 <h3>Burger</h3>
                 <p>Juicy beef burger with cheese, lettuce, and tomato.</p>
-                <p className="card-price">Rp 2.500 / pcs</p>
+                <p className="card-price">
+                  Rp 2.500 / pcs <br />
+                  <p className="sisa">(tersisa 25 pcs)</p>
+                </p>
                 <Link to="/menu" className="tbl-pink">
                   Order now
                 </Link>
@@ -118,7 +123,10 @@ function Home() {
               <div className="card-content">
                 <h3>Burger</h3>
                 <p>Juicy beef burger with cheese, lettuce, and tomato.</p>
-                <p className="card-price">Rp 2.500 / pcs</p>
+                <p className="card-price">
+                  Rp 2.500 / pcs <br />
+                  <p className="sisa">(tersisa 25 pcs)</p>
+                </p>
                 <Link to="/menu" className="tbl-pink">
                   Order now
                 </Link>
@@ -129,7 +137,10 @@ function Home() {
               <div className="card-content">
                 <h3>Pizza</h3>
                 <p>Delicious cheese pizza with a variety of toppings.</p>
-                <p className="card-price">Rp 2.500 / pcs</p>
+                <p className="card-price">
+                  Rp 2.500 / pcs <br />
+                  <p className="sisa">(tersisa 25 pcs)</p>
+                </p>
                 <Link to="/menu" className="tbl-pink">
                   Order now
                 </Link>
@@ -140,7 +151,10 @@ function Home() {
               <div className="card-content">
                 <h3>Sushi</h3>
                 <p>Fresh sushi rolls with tuna, salmon, and avocado.</p>
-                <p className="card-price">Rp 2.500 / pcs</p>
+                <p className="card-price">
+                  Rp 2.500 / pcs <br />
+                  <p className="sisa">(tersisa 25 pcs)</p>
+                </p>
                 <Link to="/menu" className="tbl-pink">
                   Order now
                 </Link>

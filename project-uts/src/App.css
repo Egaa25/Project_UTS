@@ -119,13 +119,6 @@ nav ul li a:hover {
   }
 }
 
-/* home */
-.logoNow {
-}
-
-.orderNow {
-}
-
 .wave1 {
   position: absolute;
 }
@@ -281,7 +274,7 @@ h2 {
   text-align: center;
   height: auto;
   margin-top: 100px;
-  width: 400px;
+  width: 300px;
   background-color: #272363;
   border-radius: 20px;
 }
@@ -352,6 +345,21 @@ h2 {
 
 /* Home.css */
 
+/* ourMenu */
+.about1 {
+  justify-content: center;
+  text-align: center;
+  background-color: #272363; /* Warna background */
+  padding: 10px; /* Tambahkan padding lebih untuk ruang dalam */
+  width: 250px; /* Lebar tetap untuk kolom */
+  margin: 20px auto; /* Memusatkan elemen secara horizontal */
+  border-radius: 30px; /* Opsional: Membuat sudut kolom lebih lembut */
+  color: white; /* Warna teks putih untuk kontras dengan latar belakang */
+  cursor: default;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease;
+}
+
 /* Style untuk menu section */
 .ourMenu {
   justify-content: center;
@@ -369,6 +377,43 @@ h2 {
 
 .ourMenu:hover {
   transform: translateY(-15px);
+}
+
+/* Style untuk menu section */
+.ourMenu1 {
+  justify-content: center;
+  text-align: center;
+  background-color: #272363; /* Warna background */
+  padding: 10px; /* Tambahkan padding lebih untuk ruang dalam */
+  width: 250px; /* Lebar tetap untuk kolom */
+  margin: 20px auto; /* Memusatkan elemen secara horizontal */
+  border-radius: 30px; /* Opsional: Membuat sudut kolom lebih lembut */
+  color: white; /* Warna teks putih untuk kontras dengan latar belakang */
+  cursor: default;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease;
+}
+
+.ourMenu1:hover {
+  transform: translateY(-10px);
+}
+
+.ourMenu2 {
+  justify-content: center;
+  text-align: center;
+  background-color: #272363; /* Warna background */
+  padding: 10px; /* Tambahkan padding lebih untuk ruang dalam */
+  width: 300px; /* Lebar tetap untuk kolom */
+  margin: 20px auto; /* Memusatkan elemen secara horizontal */
+  border-radius: 30px; /* Opsional: Membuat sudut kolom lebih lembut */
+  color: white; /* Warna teks putih untuk kontras dengan latar belakang */
+  cursor: default;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease;
+}
+
+.ourMenu2:hover {
+  transform: translateY(-10px);
 }
 
 .menu-section {
@@ -395,11 +440,25 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
   transition: transform 0.3s ease;
-  height: 450px;
+  height: 495px;
 }
 
 .card:hover {
   transform: translateY(-15px);
+}
+
+.cardabout {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  height: 290px;
+  transition: transform 0.3s ease;
+}
+
+.cardabout p {
+  padding-top: 15px;
+  padding-left: 8px;
 }
 
 .card-image {
@@ -424,4 +483,71 @@ h2 {
   font-weight: bold;
   margin-top: 10px;
   color: #ff478d;
+}
+
+.sisa {
+  color: black;
+}
+
+/* Contact Us Section */
+#contact {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  text-align: center; /* Menengahkan semua teks di dalam section */
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto; /* Untuk menengahkan kontainer secara horizontal */
+  padding: 2rem;
+}
+
+.contact-container p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: center; /* Menengahkan item kontak secara horizontal */
+  align-items: center; /* Menengahkan item kontak secara vertikal */
+  gap: 2rem; /* Jarak antar item kontak */
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row; /* Mengatur logo dan teks berada dalam satu baris */
+  align-items: center; /* Menyejajarkan logo dan teks secara vertikal */
+  gap: 0.5rem; /* Jarak antara logo dan teks */
+}
+
+.contact-item img {
+  width: 50px;
+  height: auto;
+}
+
+.contact-item span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #2b2f77; /* Warna teks kontak */
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex; /* Agar seluruh elemen dalam link sejajar secara horizontal */
+  align-items: center; /* Menyelaraskan logo dan teks secara vertikal */
+}
+
+.contact-item a:hover {
+  color: #1a53ff; /* Warna teks saat di-hover */
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem; /* Jarak antara ikon dan teks */
 }
